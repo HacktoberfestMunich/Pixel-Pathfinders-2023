@@ -47,13 +47,6 @@ But sometimes you NEED network
 :class: full-slide-class
 
 Sponsor
-=======
-
-.. image:: images/IDG-logo-white.png
-
-Ingenics Digital GmbH
-
-{Insert User here}
 
 ----
 
