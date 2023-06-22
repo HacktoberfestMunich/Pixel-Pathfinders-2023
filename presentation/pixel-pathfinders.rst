@@ -35,6 +35,10 @@ OFC you can network (talk to people, share socials and stuff)
 
 But sometimes you NEED network
 
+* Use the wired connection
+
+OR
+
 * WIFI: {Insert WIFI here}
 * Pass: {Insert Pass here}
 
@@ -46,7 +50,8 @@ But sometimes you NEED network
 
 :class: full-slide-class
 
-Sponsor
+.. image:: images/sponsor.png
+
 
 ----
 
@@ -55,11 +60,12 @@ Sponsor
 Important things first
 ----------------------
 
-* {Insert Food Type here}
-* {Insert Food Timeline here}
-* Official end is 11 PM
+* 📍 You are here
+* 🍴 Buffet in front of the elevator starting at 7 PM
+* 🐱‍💻 Maze time
+* 🚪 Official end is 11 PM
 
-We also have vegetarians covered. ;) {Do we?}
+We also have vegetarians covered. ;)
 
 .. image:: images/menu.png
    :width: 600px
@@ -101,7 +107,7 @@ Sample command to get help
 
 .. code-block:: bash
 
-    echo "HELP" | netcat {ip}:{port} -d 1
+    echo "HELP" | netcat {ip} 1234
 
 ----
 
@@ -114,7 +120,7 @@ Sample command to get the canvas size
 
 .. code-block:: bash
 
-    echo "SIZE" | netcat {ip}:{port} -d 1
+    echo "SIZE" | netcat {ip} 1234
 
 ----
 
@@ -127,7 +133,7 @@ Sample command to get the pixel color at the given coordinate
 
 .. code-block:: bash
 
-    echo "PX {x} {y}" | netcat {ip}:{port} -d 1
+    echo "PX {x} {y}" | netcat {ip} 1234
 
 ----
 
@@ -140,7 +146,7 @@ Sample command to set the pixel color at the given coordinate
 
 .. code-block:: bash
 
-    echo "PX {x} {y} {rrggbb(aa)}" | netcat {ip}:{port} -d 1
+    echo "PX {x} {y} {rrggbb}" | netcat {ip} 1234
 
 ----
 
