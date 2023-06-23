@@ -28,10 +28,32 @@ Markus Pöschl & Alex Mayer
 
 :class: right-class
 
+What will happen now
+--------------------
+
+* 📍 You are here
+* 🍴 Buffet in front of the elevator starting around 7:45 PM (Also vegitarian)
+* 🐱‍💻 Maze time
+* 🚪 Official end is 11 PM
+
+.. image:: images/menu.png
+   :width: 600px
+   :height: 600px
+
+----
+
+:class: full-slide-class
+
+.. image:: images/sponsor.png
+
+----
+
+:class: right-class
+
 Connectivity
 ============
 
-OFC you can network (talk to people, share socials and stuff)
+Of course you can network (talk to people, share socials and stuff)
 
 But sometimes you NEED network
 
@@ -44,32 +66,6 @@ OR
 
 .. image:: images/wifi_meme.png
    :width: 400px
-   :height: 400px
-
-----
-
-:class: full-slide-class
-
-.. image:: images/sponsor.png
-
-
-----
-
-:class: right-class
-
-Important things first
-----------------------
-
-* 📍 You are here
-* 🍴 Buffet in front of the elevator starting at 7 PM
-* 🐱‍💻 Maze time
-* 🚪 Official end is 11 PM
-
-We also have vegetarians covered. ;)
-
-.. image:: images/menu.png
-   :width: 600px
-   :height: 600px
 
 ----
 
@@ -150,6 +146,12 @@ Sample command to set the pixel color at the given coordinate
 
 ----
 
+:class: right-class
+
 GLHF!
+=====
 
 (and feel free to ask!)
+-----------------------
+
+.. image:: images/mauled.jpg
