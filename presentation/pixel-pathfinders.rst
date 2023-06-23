@@ -61,8 +61,7 @@ But sometimes you NEED network
 
 OR
 
-* WIFI: {Insert WIFI here}
-* Pass: {Insert Pass here}
+* restricted
 
 .. image:: images/wifi_meme.png
    :width: 400px
@@ -103,7 +102,7 @@ Sample command to get help
 
 .. code-block:: bash
 
-    echo "HELP" | netcat {ip} 1234
+    echo "HELP" | netcat 10.201.77.160 1234
 
 ----
 
@@ -116,7 +115,7 @@ Sample command to get the canvas size
 
 .. code-block:: bash
 
-    echo "SIZE" | netcat {ip} 1234
+    echo "SIZE" | netcat 10.201.77.160 1234
 
 ----
 
@@ -129,7 +128,7 @@ Sample command to get the pixel color at the given coordinate
 
 .. code-block:: bash
 
-    echo "PX {x} {y}" | netcat {ip} 1234
+    echo "PX {x} {y}" | netcat 10.201.77.160 1234
 
 ----
 
@@ -142,7 +141,7 @@ Sample command to set the pixel color at the given coordinate
 
 .. code-block:: bash
 
-    echo "PX {x} {y} {rrggbb}" | netcat {ip} 1234
+    echo "PX {x} {y} {rrggbb}" | netcat 10.201.77.160 1234
 
 ----
 
@@ -155,3 +154,23 @@ GLHF!
 -----------------------
 
 .. image:: images/mauled.jpg
+
+
+----
+
+:class: right-class
+
+Pixelflut
+---------
+
+* Server: `10.201.77.160`
+* Port: `1234`
+* TCP packages
+* Send `HELP` for help (thx Cpt. Obvious)
+
+WIFI
+----
+
+* restricted
+
+.. image:: images/tldr.jpg
