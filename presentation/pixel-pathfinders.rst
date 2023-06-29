@@ -128,7 +128,7 @@ Sample command to get the pixel color at the given coordinate
 
 .. code-block:: bash
 
-    echo "PX {x} {y}" | netcat 10.201.77.160 1234
+    echo "PX {x} {y}\n" | netcat 10.201.77.160 1234
 
 ----
 
@@ -141,7 +141,7 @@ Sample command to set the pixel color at the given coordinate
 
 .. code-block:: bash
 
-    echo "PX {x} {y} {rrggbb}" | netcat 10.201.77.160 1234
+    echo "PX {x} {y} {rrggbb}\n" | netcat 10.201.77.160 1234
 
 ----
 
